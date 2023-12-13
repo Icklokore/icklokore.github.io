@@ -4,5 +4,59 @@
 /*---------------------*/
 /*   GENERAL ELEMENTS  */
 /*---------------------*/
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #000000;
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+main{
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+main a {
+  color: #00ffff;
+  display: block;
+  margin-bottom: 5px;
+}
+main a:hover {
+  color:#ffffff;
+  text-decoration: none;
+}
+aside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+aside a{
+  display: block;
+  border: #ff0055 3px solid;
+  width: fit-content;
+  padding: 5px;
+  color: #ff0055;
+}
+aside a:hover{
+  color:#ffffff;
+  text-decoration: none;
+}
 /* --- General classes --- */
+.hidden{
+  display: none;
+}
