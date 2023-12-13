@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Example page LocalStorage</title>
     <link rel="stylesheet" href="assets/css/reset.css"/>
     <link rel="stylesheet" href="assets/css/screen.css"/>
 
 </head>
 <body>
+    <h1>Hello!</h1>
+    <p>
+        This page will display different links based on your username. It will display all links as standard, but won't show the second link if you set the key "user" in localStorage to "nmbs".
+    </p>
+    <div>
+        <a href="www.belgiantrain.be">NMBS website</a>
+        <a id="Secret Link" href="www.youtube.com/watch?v=dQw4w9WgXcQ">Super secret link you shouldn't be able to open!</a>
+    </div>
 
-    <h1>Hello World!</h1>
-
-<script src="assets/js/meals.js"></script>
-<script src="assets/js/localstorage.js"></script>
-<script src="assets/js/listOfMeals.js"></script>
-<script src="assets/js/detailWindow.js"></script>
-<script src="assets/js/shoppingCart.js"></script>
 <script src="assets/js/loadPage.js"></script>
+<script src="assets/js/localstorage.js"></script>
 </body>
 </html>
